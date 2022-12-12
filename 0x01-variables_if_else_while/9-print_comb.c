@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
-*main - prints all combinations of single digit
+*main - prints all combinations of single digits
 *Return: Always 0 (Success)
 */
 int main(void)
 {
 int n;
-for (n = 0; n < 10; n++)
+for (n = 48; n < 58; n++)
 {
-putchar(n + '0');
-if (n < 9)
+putchar(n);
+if (n != 57)
 {
 putchar(',');
 putchar(' ');
