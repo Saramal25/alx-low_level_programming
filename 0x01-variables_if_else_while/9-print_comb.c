@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
 *main - print all combinations of single digi numbers
 *Return: Always 0 (Success)
