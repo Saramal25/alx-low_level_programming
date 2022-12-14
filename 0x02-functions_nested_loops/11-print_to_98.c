@@ -3,6 +3,7 @@
 /**
 *print_to_98 -print all numbers from input to 98
 *@n: the starting number
+*Return:: Always 0 (Success)
 */
 void print_to_98(int n)
 {
