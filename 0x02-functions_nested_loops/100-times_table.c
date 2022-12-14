@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*print_times_table - prints times table
+*print_times_tables - prints times table
 *@n: times table to use
 *Return: Always 0 (Success)
 */
-void print_times_table(int n)
+void print_times_tables(int n)
 {
 int a = 0, rep, b;
 if (n < 0 || n > 15)
@@ -20,7 +20,7 @@ else if (rep < 10)
 {
 _putchar(' ');
 _putchar(' ');
-_putcharr('0' + rep);
+_putchar('0' + rep);
 }
 else if (rep < 100)
 {
