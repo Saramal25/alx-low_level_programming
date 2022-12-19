@@ -6,7 +6,7 @@
 void _puts(char *str)
 {
 int string = 0;
-while (*s != '\0')
+while (*str != '\0')
 {
 string++;
 str++;
