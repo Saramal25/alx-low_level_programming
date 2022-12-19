@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_puts - Write a fuction that prints a string, followed by a new line, to stdouts.
+*_puts - Write a fuction that prints a string followed by a new line to stdouts
 *@str: this is my input string
 */
 void _puts(char *str)
