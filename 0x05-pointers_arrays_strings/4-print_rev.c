@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*print_rev - printing a string in reverse 
-*@s: the string to be printed in rev 
+*print_rev - prints a string, in reverse, followed by a new line
+*@s: string to be printed in reserve
 *Return: Nothing
 */
 void print_rev(char *s)
