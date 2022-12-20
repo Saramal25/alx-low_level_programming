@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -17,6 +17,6 @@ pass = (rand() % 128);
 sum += pass;
 printf("%d", pass);
 }
-printf("%d", +2772 - sum);
+printf("%d", 2772 - sum);
 return (0);
 }
