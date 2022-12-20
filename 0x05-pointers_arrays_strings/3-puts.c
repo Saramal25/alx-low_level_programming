@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_puts - Write a fuction that prints a string followed by a new line to stdouts
+*_puts - Writes the character str to stdouts
 *@str: this is my input string
 *Return: On success 1
 */
@@ -14,3 +14,5 @@ str++;
 }
 _putchar('\n');
 }
+return (0);
+
