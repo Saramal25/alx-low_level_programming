@@ -3,19 +3,27 @@
 #include <time.h>
 /**
 *main - progress that generates random valid
-`*Return: Always 0 (Success)
+*program 101-crackme.
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-int pass, sum;
-srand(time(NULL));
+int i, sum, n;
+int pass[100];
 sum = 0;
-while (sum <= 2645)
+srand(time(NULL));
+for (i = 0; i < 100; i++)
 {
-pass = (rand() % 128);
-sum += pass;
-printf("%d", pass);
+pass[i] = rand() % 78;
+sum += (pass[i] + '0');
+putchar(pass[i] + '0');
+if ((2772 - sum) -'0' < 78)
+{
+n = 2772 - sum - '0';
+sum += n;
+putchar(n + '0');
+break;
 }
-printf("%d", 2772 - sum);
+}
 return (0);
 }
