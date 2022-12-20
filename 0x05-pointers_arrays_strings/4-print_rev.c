@@ -2,14 +2,21 @@
 /**
 *print_rev - printing a string in reverse 
 *@s: the string to be printed in rev 
+*Return: Nothing
 */
 void print_rev(char *s)
 {
-int n;
-s = "hello"
-n = strlen(s);
-for (i = n-1; i >= 0; i--)
+int count = 0;
+while (*s)
 {
-_putchar(s[i]);
+s++;
+count++;
 }
+while (count)
+{
+s--;
+_putchar(*s);
+count--;
+}
+_putchar('\n');
 }
