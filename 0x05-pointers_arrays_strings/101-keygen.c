@@ -13,10 +13,10 @@ srand(time(NULL));
 sum = 0;
 while (sum <= 2645)
 {
-pass[i] = (rand() % 128);
+pass = (rand() % 128);
 sum += pass;
-putchar("%d", pass);
+printf("%d", pass);
 }
-putchar("%d", +2772 - sum);
+printf("%d", +2772 - sum);
 return (0);
 }
