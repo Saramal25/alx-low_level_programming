@@ -8,21 +8,15 @@
 */
 int main(void)
 {
-int i, sum, n;
-int pass[100];
-sum = 0;
+int pass, sum;
 srand(time(NULL));
-for (i = 0; i < 100; i++)
+sum = 0;
+while (sum <= 2645)
 {
-pass[i] = (rand() % 78);
-sum += (pass[i] + '0');
-putchar(pass[i] + '0');
-if ((2772 - sum) -'0' < 78)
-{
-n = 2772 - sum - '0';
-sum += n;
-putchar(n + '0');
+pass[i] = (rand() % 128);
+sum += pass;
+putchar("%d", pass);
 }
-}
+putchar("%d", +2772 - sum);
 return (0);
 }
