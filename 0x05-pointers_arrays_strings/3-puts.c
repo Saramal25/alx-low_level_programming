@@ -6,13 +6,10 @@
 */
 void _puts(char *str)
 {
-int string = 0;
-while (*str != '\0')
+for (; *str != '\0'; str++)
 {
-string++;
-str++;
+_putchar(*str);
 }
 _putchar('\n');
 }
-return (0);
 
